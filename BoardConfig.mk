@@ -42,7 +42,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/tulip-perf_defconfig
-
+TARGET_KERNEL_CLANG_VERSION := r487747c
 # Creates metadata partition mount point under root for
 # the devices with metadata parition
 BOARD_USES_METADATA_PARTITION := true
